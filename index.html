@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width">
+        <title>Cryptonaut | Challenge Encriptador - Desencriptador</title>
+
+        <!-- Estilos de CSS -->
+        <link rel="shortcut icon" href="assets/img/planet-system.ico">
+        <link rel="stylesheet" href="assets/css/reset.css">
+        <link rel="stylesheet" href="assets/css/styles.css">
+        <link rel="stylesheet" href="assets/css/actualizarReloj.css">
+        <link rel="stylesheet" href="assets/css/despegueNave.css">
+
+        <!-- Importando libreria Sweet Alert 2 -->
+        <link rel="stylesheet" href="sweetalert2/sweetalert2.min.css">
+        <script src="sweetalert2/sweetalert2.all.min.js"></script>
+
+        <!-- Fuente de Texto -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Special+Elite&display=swap" rel="stylesheet">
+    
+    </head>
+
+    <body>
+        <header>
+            <img class="logo" src="assets/img/logo-alura-blanco.png" alt="Logo de Alura">
+        </header>
+
+        <main>
+            <div class="cohete-container">
+                <img src="assets/img/rocket_launching_space.svg" alt="Cohete espacial" class="cohete">
+            </div>
+
+            <section>
+                <textarea class="entrada-texto texto-neon" cols="30" rows="9" placeholder="Ingrese el texto aquí" autofocus></textarea>
+
+                <div>
+                    <h6 class= "restriccion texto-neon">&#9888 Solo letras minúsculas y sin acentos.</h6>
+                </div>
+
+                <div class="botones">
+                    <button name="encriptar" class="encriptar" onclick="encriptar()">Encriptar</button>
+                    <button name="desencriptar" class="desencriptar" onclick="desencriptar()">Desencriptar</button>
+                </div>
+            </section>
+
+            <section>
+                <textarea class="salida-texto" cols="20" rows="9" disabled></textarea>
+
+                <div class="dinamico">
+                    <h2 class="indicador1">Ningún mensaje fue encontrado</h2>
+                    
+                    <h3 class="indicador2">Ingresa el texto que desees encriptar o desencriptar.</h3>
+
+                    <button name="copiar" class="copiar" onclick="copiar()" style="display: none;">
+                        <span class="anuncio"></span>Copiar
+                    </button>
+                </div>
+            </section>
+        </main>
+
+        <footer>
+            <div id="reloj">
+                <span id="hora"></span>
+                <span id="fecha"></span>
+            </div>
+            <p class="copyright">&copy Desarrollado por Vladimir Mate</p>
+        </footer>
+
+    </body>
+
+    <script src="assets/js/script.js"></script>
+    <script src="assets/js/actualizarReloj.js"></script>
+    <script src="assets/js/sweetAlert.js"></script>
+</html>

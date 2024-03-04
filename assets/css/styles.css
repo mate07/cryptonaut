@@ -1,0 +1,300 @@
+/* CSS Base ;*/
+*{
+    font-family: "Special Elite", system-ui;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
+}
+
+body{
+    background: url(../img/fondo-nasa2.jpg) no-repeat fixed;
+}
+
+.swal2-popup {
+    font-size: 1rem !important;
+    font-family: "Special Elite", system-ui;
+}
+
+.texto-neon{
+    text-shadow:
+        0 0 10px #02deff,
+        0 0 20px #02deff,
+        0 0 30px #02deff,
+        0 0 40px #02deff;
+    color: #02deff;
+}
+
+
+.logo{
+    padding-top: 5px;
+    margin-left: 5px;
+    margin-top: 10px;
+    width: 8%;
+}
+
+main{
+    display: flex;
+    margin-bottom: 20px;
+    margin-left: 60px;
+    justify-content: center;
+}
+
+.entrada-texto{
+    resize: none;
+    margin-top: 20px;
+    color: #f5e3c9;
+    border: none;
+    background: transparent;
+}
+
+.entrada-texto::placeholder{
+    color:#f5e3c9;
+}
+
+.entrada-texto:focus{
+    outline:  none;
+}
+
+.salida-texto{
+    opacity: 90%;
+    resize: none;
+    margin-left: 90px;
+    padding: 30px;
+    padding-bottom: 120px;
+    height: 500px;
+    color: darkblue;
+    background: white;
+    background-repeat: no-repeat;
+    background-position: center;
+    border: none;
+    border-radius: 52px;
+    box-shadow: 0 24px 32px -8px rgba(0, 0, 0, 0.08);
+    background-image: url(../img/spacesuit_astronaut.svg);
+    background-size: 70%;
+}
+
+.salida-texto:focus{
+    outline: none;
+}
+
+.restriccion{
+    color: #D8DFE8;
+    font-size: 16px;
+}
+
+.botones{
+    display: flex;
+    margin-top: 18px;
+}
+
+.encriptar{
+    color: #faf3dd;
+    background: #bf2a23;
+    border: 1px solid #cf872e;
+    border-radius: 55px;
+    cursor: pointer;
+    height: 67px;
+    width: 328px;
+}
+
+.desencriptar{
+    color: #faf3dd;
+    background: #bf2a23;
+    border: 1px solid #cf872e;
+    border-radius: 55px;
+    cursor: pointer;
+    height: 67px;
+    margin-left: 30px;
+    width: 328px;
+}
+
+.dinamico{
+    background: transparent;
+    margin-left: 150px;
+    margin-top: -170px;
+    width: 360px;
+    position: absolute;
+    text-align: center;
+}
+
+.indicador1{
+    font-size: 24px;
+    font-weight: bold;
+    line-height: initial;
+    background: transparent;
+}
+
+.indicador2{
+    font-size: 16px;
+    line-height: initial;
+    background: transparent;
+}
+
+.copiar{
+    color: #faf3dd;
+    background: #bf2a23;
+    border: 1px solid #cf872e;
+    border-radius: 55px;
+    cursor: pointer;
+    height: 67px;
+    width: 336px;
+    margin-top: 60px;
+}
+
+.encriptar:hover, .desencriptar:hover, .copiar:hover{
+    background: #eace78;
+    color: white;
+}
+
+.anuncio{
+    display: none;
+    width: 300px;
+    background-color: transparent;
+    color: #2d2d2d;
+    text-align: center;
+    border-radius: 10px;
+    padding: 5px;
+    position: absolute;
+    z-index: 1;
+    bottom: 80px;
+    left: 100px;
+    margin-left: -75px;
+    opacity: .6;
+}
+
+footer{
+    text-align: center;
+    background: transparent;
+    padding: 15px;
+    font-family: "Special Elite", system-ui;
+}
+
+.copyright{
+    color: #D8DFE8;
+    background: transparent;
+    font-size: 15px;
+    margin: 10px;
+}
+
+/* CSS Base Laptop */
+@media screen and (max-width: 1366px) {
+    main{
+        margin-left: 0px;
+    }
+
+    .entrada-texto{
+        margin-top: 50px;
+        width: 686px;
+        height: 400px;
+    }
+
+    .botones, .salida-texto{
+        margin-top: 0px;
+    }
+
+    .salida-texto{
+        height: 550px;
+    }
+
+    .dinamico{
+        margin-top: -160px;
+    }
+
+    .copiar{
+        margin-top: 60px;
+    }
+}
+
+/* CSS Base Tablet */
+@media screen and (max-width: 768px) {
+    .logo{
+        width: 15%;
+        margin-top: 40px;
+    } 
+
+    main{
+        display: block;
+        margin: 0px 30px;
+    }
+
+    .entrada-texto{
+        margin-top: 60px;
+        width: 100%;
+        height: 700px;
+    }
+
+    .botones{
+        margin-top: 0px;
+    }
+
+    .salida-texto{
+        margin: 40px 0px;
+        width: 655px;
+        height: 300px;
+        background: white;
+    }
+
+    .dinamico{
+        margin-top: -250px;
+        margin-left: 0px;
+        width: 655px;
+    }
+
+    .indicador1{
+        margin-bottom: .5em;
+    }
+
+    .copiar{
+        margin-top: 100px;
+    }
+
+    .anuncio{
+        margin-left: 70px;
+    }
+}
+
+/* CSS Base Celular */
+@media screen and (max-width: 375px) {
+    .logo{
+        margin-top: 30px;
+        width: 30%;
+    }
+
+    .entrada-texto{
+        margin-top: 20px;
+        height: 340px;
+    }
+
+    .botones{
+        display: block;
+        margin-top: 0px;
+    }
+
+    .encriptar, .desencriptar{
+        width: 100%;
+    }
+
+    .desencriptar{
+        margin-left: 0px;
+        margin-top: 15px;
+    }
+
+    .salida-texto, .dinamico, .copiar{
+        width: 295px;
+    }
+
+    .dinamico{
+        margin-left: 10px;
+    }
+
+    .salida-texto{
+        padding: 10px;
+        padding-bottom: 120px;
+        height: 180px;
+    }
+
+    .anuncio{
+        width: 285px;
+        margin-left: -100px;
+    }
+}

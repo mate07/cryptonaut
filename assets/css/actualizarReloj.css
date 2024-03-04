@@ -1,0 +1,21 @@
+#reloj {
+    background: transparent;
+    font-family: "Special Elite", system-ui;
+    font-size: 16px;
+    text-align: center;
+  }
+  
+  #hora, #fecha {
+    background: transparent;
+    display: inline-block;
+    padding: 5px;
+  }
+  
+  #hora {
+    color: #D8DFE8;
+  }
+  
+  #fecha {
+    color: #D8DFE8;
+  }
+  
