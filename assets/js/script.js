@@ -111,6 +111,8 @@ function copiar(){
     SetMensaje("success", "¡Texto copiado!", "El texto se ha copiado al portapapeles.");
 
     setTimeout(() => {
+        anuncio.style.display = "none";
+        salidaTexto.value = "";
         mostrar();
     }, 950);
 }
