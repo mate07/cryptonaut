@@ -1,24 +1,25 @@
 # Cryptnaut | Challenge ONE - Encriptador de texto.
 
-![Badge Release](https://img.shields.io/badge/Release%20Date:-Enero-blue)
-![Badge Java](https://img.shields.io/badge/HTML5-blue)
-![Badge Java](https://img.shields.io/badge/CSS3-blue)
-![Badge Java](https://img.shields.io/badge/JavaScript-blue)
-![Badge Finalizado](https://img.shields.io/badge/Status:-Finalizado-blue)
+![Badge Release](https://img.shields.io/badge/Release%20Date:-Marzo-blue)
+![Badge Java](https://img.shields.io/badge/HTML5-darkorange)
+![Badge Java](https://img.shields.io/badge/CSS3-purple)
+![Badge Java](https://img.shields.io/badge/JavaScript-orangered)
+![Badge Java](https://img.shields.io/badge/SweetAlert2-red)
+![Badge Finalizado](https://img.shields.io/badge/Status:-Finalizado-green)
 
-![Portada](https://github.com/VictorRodriguezL/Challenge-Encriptador-de-Texto/assets/123136998/6dbc50b6-65e1-466c-82a6-c4d22094536f)
+![Portada](https://raw.githubusercontent.com/mate07/images_system/main/Captura%20de%20pantalla%202024-03-04%20180239.png?token=GHSAT0AAAAAACNL3LTKSGMYGGQ5EMNKVHN2ZPGMU2Q)
 
 ## Descrpción del Proyecto
 
 Es la resolución del **Challenge - Encriptador de Texto** utilizando **HTML5**, **CSS3** y **JavaScript** es el primer reto de la formación **Oracle Next Education (ONE)** de **Oracle + Alura LATAM**.
 
-El reto cosiste en contruir una página web que encripte y desencripte el texto que será ingresado por el usuario y poder regresar en su forma encriptada o desencriptada según sea el caso, el objetivo principal de este desafio es poner a prueba los conocimientos adquiridos durante los cursos vistos en la **Formación Principiante en Programación**.
+El reto consiste en contruir una página web que encripte y desencripte un texto que será ingresado por el usuario y, pueda regresar el texto a su forma encriptada o desencriptada según sea el caso, el objetivo principal de este desafio es poner a prueba los conocimientos adquiridos durante los cursos vistos en la **Formación Principiante en Programación**.
 
-### Historia
+### Historia 🏦
 
 El _Encriptador de Texto_ es una aplicación que encripta textos, así podras intercambiar mensajes secretos con otras personas que sepan el secreto de la encriptación utilizada.
 
-#### Requisitos
+#### Requisitos 📚
 
 Las **llaves** de encriptación que utilizaremos son las siguientes:
 
@@ -56,15 +57,15 @@ Para probarlo se puede de dos maneras ya sea descargando una copia en su computa
 
 **Para descargarlo:**
 
-[Clic para Descargar](https://github.com/VictorRodriguezL/Challenge-Encriptador-de-Texto/releases/tag/v0.1.1)
+[Clic para Descargar](https://github.com/mate07/cryptonaut)
 
 **Para probarlo directamente:**
 
-[Encriptador de Texto](https://victorrodriguezl.github.io/Challenge-Encriptador-de-Texto/)
+[Encriptador de Texto](https://mate07.github.io/cryptonaut/)
 
 **Demo:**
 
-![Demo](https://github.com/VictorRodriguezL/Challenge-Encriptador-de-Texto/assets/123136998/3015b1db-b343-4dce-816f-fe93f3a350c0)
+![Demo](https://raw.githubusercontent.com/mate07/images_system/main/demo-cryptonaut.gif?token=GHSAT0AAAAAACNL3LTLJM547ZFAVUJYLY2WZPGM7WQ)
 
 ## Construido con 🛠️
 
@@ -75,9 +76,7 @@ _Para desarrollar el proyecto, utilice las siguientes herramientas:_
 
 ## Autores ✒️
 
-* **Jeanmarie Quijada** - *Desarrolladora e Instructor en Alura LATAM* - [Jeanmarie](https://www.linkedin.com/in/jeanmariequijada/)
-* **Génesys Rondón** - *Desarrolladora e Instructora en Alura LATAM* - [Génesys](https://www.linkedin.com/in/genesysrondon914762182/)
-* **Victor Rodríguez** - *Desarrollador* - [Victor](https://www.linkedin.com/in/victor-manuel-rdz-l/)
-	
-		
-		
+* **Christian Velasco** - *Desarrollador e Instructor en Alura LATAM* - [Christian Velasco](https://www.linkedin.com/in/christianpva/)
+* **Leonardo Jose Castillo Lacruz** - *Desarrollador e Instructor en Alura LATAM* - [Leo Castillo](https://www.linkedin.com/in/leonardo-castillo-4911571a/)
+* **Ellen Pimentel** - *Desarrolladora e Instructora en Alura LATAM* - [Ellen Pimentel](https://www.linkedin.com/in/ellen-p-pimentel/)
+* **Vladimir Mate** - *Desarrollador y Docente Universitario* - [Vladimir Mate](https://www.linkedin.com/in/matevladimir/)
