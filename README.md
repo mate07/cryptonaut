@@ -7,7 +7,7 @@
 ![Badge Java](https://img.shields.io/badge/SweetAlert2-red)
 ![Badge Finalizado](https://img.shields.io/badge/Status:-Finalizado-green)
 
-![Portada](https://raw.githubusercontent.com/mate07/images_system/main/Captura%20de%20pantalla%202024-03-04%20180239.png?token=GHSAT0AAAAAACNL3LTKIOPN33DASR4YP27OZPGNQBA)
+![Portada](/assets/img/captura-cryptonaut.png)
 
 ## Descrpción del Proyecto
 
@@ -65,7 +65,7 @@ Para probarlo se puede de dos maneras ya sea descargando una copia en su computa
 
 **Demo:**
 
-![Demo](https://raw.githubusercontent.com/mate07/images_system/main/demo-cryptonaut.gif?token=GHSAT0AAAAAACNL3LTKCDBCHEX2DSCXA5P4ZPGNQ7A)
+![Demo](/assets/img/demo-cryptonaut.gif)
 
 ## Construido con 🛠️
 
